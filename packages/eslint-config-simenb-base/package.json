@@ -1,8 +1,12 @@
 {
   "name": "eslint-config-simenb-base",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
-  "files": ["index.js", "additions.js", "overrides.js"],
+  "files": [
+    "index.js",
+    "additions.js",
+    "overrides.js"
+  ],
   "scripts": {
     "test": "eslint ."
   },

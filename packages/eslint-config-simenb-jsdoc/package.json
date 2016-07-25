@@ -1,8 +1,10 @@
 {
   "name": "eslint-config-simenb-jsdoc",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "eslint ."
   },
