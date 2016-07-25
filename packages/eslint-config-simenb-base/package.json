@@ -6,7 +6,7 @@
     "additions.js",
     "index.js",
     "legacy.js",
-    "legacy-overrides.js",
+    "legacy-additions.js",
     "overrides.js"
   ],
   "scripts": {
