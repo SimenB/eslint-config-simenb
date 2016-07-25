@@ -3,8 +3,10 @@
   "version": "1.2.0",
   "description": "Base ESLint config",
   "files": [
-    "index.js",
     "additions.js",
+    "index.js",
+    "legacy.js",
+    "legacy-overrides.js",
     "overrides.js"
   ],
   "scripts": {
