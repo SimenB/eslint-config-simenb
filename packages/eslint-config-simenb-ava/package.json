@@ -12,17 +12,14 @@
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
   "license": "MIT",
   "repository": "SimenB/eslint-config-simenb",
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "^6.1.2",
     "eslint-plugin-ava": "^2.5.0",
     "eslint-plugin-babel": "^3.3.0"
   },
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
     "eslint": "^3.1.1",
     "eslint-config-simenb-base": "^1.2.2",
-    "eslint-plugin-ava": "^2.5.0",
-    "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-import": "^1.11.1"
   }
 }

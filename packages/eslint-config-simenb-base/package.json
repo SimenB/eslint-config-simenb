@@ -16,12 +16,11 @@
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
   "license": "MIT",
   "repository": "SimenB/eslint-config-simenb",
-  "peerDependencies": {
-    "eslint-config-airbnb-base": "^5.0.0"
-  },
-  "devDependencies": {
-    "eslint": "^3.1.1",
+  "dependencies": {
     "eslint-config-airbnb-base": "^5.0.0",
     "eslint-plugin-import": "^1.11.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1"
   }
 }
