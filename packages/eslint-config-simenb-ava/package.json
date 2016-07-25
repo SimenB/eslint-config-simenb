@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-simenb-ava",
+  "version": "0.0.0",
+  "description": "",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [],
+  "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
+  "license": "MIT",
+  "repository": "SimenB/eslint-config-simenb",
+  "peerDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint-plugin-ava": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.1.1",
+    "eslint-config-simenb-base": "^1.0.0",
+    "eslint-plugin-ava": "^2.5.0",
+    "eslint-plugin-import": "^1.11.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-simenb",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "exec": "lerna exec",
+    "publish": "lerna publish",
+    "updated": "lerna updated",
+    "test": "lerna run test"
+  },
+  "keywords": [],
+  "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
+  "license": "MIT",
+  "repository": "SimenB/eslint-config-simenb",
+  "devDependencies": {
+    "lerna": "2.0.0-beta.24"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-simenb-base",
+  "version": "0.0.0",
+  "description": "",
+  "files": ["index.js", "additions.js", "overrides.js"],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [],
+  "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
+  "license": "MIT",
+  "repository": "SimenB/eslint-config-simenb",
+  "peerDependencies": {
+    "eslint-config-airbnb-base": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^5.0.0",
+    "eslint-plugin-import": "^1.11.1"
+  }
+}
