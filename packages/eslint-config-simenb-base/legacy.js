@@ -1,9 +1,8 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb-base',
+    'eslint-config-airbnb-base/legacy',
     './overrides',
     './legacy-additions',
-    './additions',
   ].map(require.resolve),
   rules: {},
 };
