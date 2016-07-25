@@ -1,4 +1,5 @@
 # `eslint-config-simenb-base`
+> JSDoc ESLint config
 
 [![NPM Version][npm-image]][npm-url]
 

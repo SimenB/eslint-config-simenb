@@ -1,4 +1,5 @@
 # `eslint-config-simenb-base`
+> Base ESLint config
 
 [![NPM Version][npm-image]][npm-url]
 

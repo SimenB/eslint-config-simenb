@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-simenb-ava",
   "version": "1.0.0",
-  "description": "",
+  "description": "AVA ESLint config",
   "files": [
     "index.js"
   ],

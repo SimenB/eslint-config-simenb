@@ -1,4 +1,5 @@
 # `eslint-config-simenb-ava`
+> AVA ESLint config
 
 [![NPM Version][npm-image]][npm-url]
 
