@@ -8,7 +8,7 @@ Base ESLint config.
 ## Usage
 
 ```sh
-$ npm install --save-dev eslint-config-simenb-base eslint-config-airbnb-base eslint-plugin-import
+$ npm install --save-dev eslint-config-simenb-base
 ```
 
 `.eslintrc`:

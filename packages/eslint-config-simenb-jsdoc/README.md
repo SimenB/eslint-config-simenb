@@ -8,7 +8,7 @@ Base ESLint config.
 ## Usage
 
 ```sh
-$ npm install --save-dev eslint-config-simenb-jsdoc eslint-plugin-jsdoc
+$ npm install --save-dev eslint-config-simenb-jsdoc
 ```
 
 `.eslintrc`:

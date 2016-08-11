@@ -8,7 +8,7 @@ AVA config.
 ## Usage
 
 ```sh
-$ npm install --save-dev eslint-config-simenb-ava eslint-plugin-ava babel-eslint
+$ npm install --save-dev eslint-config-simenb-ava
 ```
 
 `.eslintrc`:
