@@ -14,7 +14,7 @@
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
     "babel-eslint": "^6.1.2",
-    "eslint-plugin-ava": "^2.5.0",
+    "eslint-plugin-ava": "^3.0.0",
     "eslint-plugin-babel": "^3.3.0"
   },
   "devDependencies": {
