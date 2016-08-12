@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-flow",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Flow type ESLint config",
   "files": [
     "index.js"
