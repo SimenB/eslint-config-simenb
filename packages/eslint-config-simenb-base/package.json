@@ -10,7 +10,9 @@
     "overrides.js"
   ],
   "scripts": {
-    "test": "eslint ."
+    "eslint-find-rules": "eslint-find-rules --unused index.js",
+    "lint": "eslint .",
+    "test": "npm run eslint-find-rules -s && npm run lint -s"
   },
   "keywords": [],
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
@@ -21,6 +23,7 @@
     "eslint-plugin-import": "^1.14.0"
   },
   "devDependencies": {
-    "eslint": "^3.5.0"
+    "eslint": "^3.5.0",
+    "eslint-find-rules": "^1.13.1"
   }
 }
