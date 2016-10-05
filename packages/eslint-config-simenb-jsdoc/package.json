@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-jsdoc",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "JSDoc ESLint config",
   "files": [
     "index.js"
@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "eslint": "^3.7.1",
-    "eslint-config-simenb-base": "^3.0.0"
+    "eslint-config-simenb-base": "^4.0.0"
   }
 }
