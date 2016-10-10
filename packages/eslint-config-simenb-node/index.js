@@ -5,6 +5,7 @@ module.exports = {
     sourceType: 'script',
   },
   rules: {
+    'global-require': 'off',
     'node/exports-style': 'error',
     'node/process-exit-as-throw': 'error',
   },
