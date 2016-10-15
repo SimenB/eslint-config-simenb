@@ -6,7 +6,7 @@ module.exports = {
   },
   rules: {
     'global-require': 'off',
-    'node-console': 'off',
+    'no-console': 'off',
     'node/exports-style': 'error',
     'node/process-exit-as-throw': 'error',
   },
