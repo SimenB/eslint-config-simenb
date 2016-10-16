@@ -1,6 +1,7 @@
 module.exports = {
   rules: {
-    'quote-props': ['error', 'consistent-as-needed'],
+    'func-name-matching': 'off',
     'prefer-numeric-literals': 'off',
+    'quote-props': ['error', 'consistent-as-needed'],
   },
 };
