@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-node",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Node ESLint config",
   "files": [
     "index.js"
@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "eslint": "^3.8.0",
-    "eslint-config-simenb-base": "^5.2.0",
+    "eslint-config-simenb-base": "^6.0.0",
     "eslint-plugin-node": "^2.1.2",
     "eslint-plugin-import": "^1.16.0"
   }

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-ava",
-  "version": "3.0.4",
+  "version": "4.0.0",
   "description": "AVA ESLint config",
   "files": [
     "index.js"
@@ -20,7 +20,7 @@
   "devDependencies": {
     "babel-eslint": "^7.0.0",
     "eslint": "^3.8.0",
-    "eslint-config-simenb-base": "^5.2.0",
+    "eslint-config-simenb-base": "^6.0.0",
     "eslint-plugin-ava": "^3.1.0",
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-import": "^1.16.0"
