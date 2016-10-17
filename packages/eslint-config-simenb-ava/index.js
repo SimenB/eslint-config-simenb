@@ -1,6 +1,6 @@
 module.exports = {
   extends: 'plugin:ava/recommended',
-  plugins: 'ava',
+  plugins: ['ava'],
   parserOptions: {
     ecmaVersion: 2017,
   },
