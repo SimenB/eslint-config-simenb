@@ -12,13 +12,12 @@
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
   "license": "MIT",
   "repository": "SimenB/eslint-config-simenb",
-  "peerDependencies": {
+  "dependencies": {
     "eslint-plugin-jsdoc": "^2.3.1"
   },
   "devDependencies": {
     "eslint": "^3.8.0",
     "eslint-config-simenb-base": "^6.0.0",
-    "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-jsdoc": "^2.3.1"
+    "eslint-plugin-import": "^1.16.0"
   }
 }
