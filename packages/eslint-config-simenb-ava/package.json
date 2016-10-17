@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-ava",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "AVA ESLint config",
   "files": [
     "index.js"
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "eslint": "^3.8.0",
-    "eslint-config-simenb-base": "^6.0.0",
+    "eslint-config-simenb-base": "^7.0.0",
     "eslint-plugin-import": "^2.0.1"
   }
 }
