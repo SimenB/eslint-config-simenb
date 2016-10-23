@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-node",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Node ESLint config",
   "files": [
     "index.js"
