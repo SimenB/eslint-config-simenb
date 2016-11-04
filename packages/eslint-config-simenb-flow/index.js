@@ -6,6 +6,7 @@ module.exports = {
     'babel/arrow-parens': ['error', 'as-needed'],
     'flowtype/define-flow-type': 'error',
     'flowtype/delimiter-dangle': ['error', 'always-multiline'],
+    'flowtype/object-type-delimiter': 'error',
     'flowtype/no-dupe-keys': 'error',
     'flowtype/no-weak-types': 'warn',
     'flowtype/require-parameter-type': ['error', { excludeArrowFunctions: true }],
