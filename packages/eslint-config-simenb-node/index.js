@@ -8,6 +8,5 @@ module.exports = {
     'global-require': 'off',
     'no-console': 'off',
     'node/exports-style': 'error',
-    'node/process-exit-as-throw': 'error',
   },
 };
