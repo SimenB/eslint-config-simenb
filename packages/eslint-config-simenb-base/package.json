@@ -20,10 +20,10 @@
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
     "eslint-config-airbnb-base": "^9.0.0",
-    "eslint-plugin-import": "^2.0.1"
+    "eslint-plugin-import": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^3.8.0",
-    "eslint-find-rules": "^1.14.0"
+    "eslint": "^3.9.1",
+    "eslint-find-rules": "^1.14.3"
   }
 }
