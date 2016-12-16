@@ -14,8 +14,8 @@
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
     "babel-eslint": "^7.1.0",
-    "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-flowtype": "^2.25.0"
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-flowtype": "^2.29.1"
   },
   "devDependencies": {
     "eslint": "^3.9.1",
