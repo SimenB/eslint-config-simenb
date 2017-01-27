@@ -1,5 +1,7 @@
 # `eslint-config-simenb`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SimenB/eslint-config-simenb.svg)](https://greenkeeper.io/)
+
 [![Build Status][travis-image]][travis-url]
 
 My personal ESLint configs, mostly minor changes from AirBnB. See individual packages in [packages](./packages/).
