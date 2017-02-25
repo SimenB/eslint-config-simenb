@@ -19,11 +19,11 @@
   "license": "MIT",
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
-    "eslint-config-airbnb-base": "^11.0.0",
-    "eslint-plugin-import": "^2.1.0"
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.9.1",
+    "eslint": "^3.16.1",
     "eslint-find-rules": "^1.14.3"
   }
 }
