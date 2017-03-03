@@ -1,10 +1,8 @@
 module.exports = {
-  extends: 'plugin:flowtype/recommended',
+  extends: ['plugin:flowtype/recommended', 'prettier/flowtype'],
   plugins: ['flowtype', 'babel'],
   rules: {
     'flowtype/define-flow-type': 'error',
-    'flowtype/delimiter-dangle': ['error', 'always-multiline'],
-    'flowtype/object-type-delimiter': 'error',
     'flowtype/no-dupe-keys': 'error',
     'flowtype/no-primitive-constructor-types': 'error',
     'flowtype/no-weak-types': 'warn',
