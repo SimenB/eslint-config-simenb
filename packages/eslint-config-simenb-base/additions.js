@@ -7,5 +7,7 @@ module.exports = {
     'no-warning-comments': ['warn', { terms: ['todo', 'fixme', '@todo', '@fixme'], location: 'start' }],
     'prefer-numeric-literals': 'error',
     'prettier/prettier': ['error', { trailingComma: 'es5', singleQuote: true, printWidth: 120 }],
+    // TODO: Remove when airbnb has a release
+    'no-compare-neg-zero': 'off',
   },
 };
