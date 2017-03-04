@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-  - "node"
-  - "5"
-  - "4"
+  - node
+  - 6
+  - 4
 os:
   - linux
   - osx
@@ -12,3 +12,5 @@ before_install: npm install -g npm
 script:
   - npm run bootstrap
   - npm run test
+cache:
+  yarn: true
