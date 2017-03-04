@@ -1,6 +1,5 @@
 {
   "lerna": "2.0.0-beta.38",
   "version": "independent",
-  "npmClient": "yarn",
-  "concurrency": 1
+  "npmClient": "yarn"
 }
