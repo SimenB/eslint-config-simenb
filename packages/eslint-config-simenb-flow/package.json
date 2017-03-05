@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-flow",
-  "version": "10.0.3",
+  "version": "10.0.4",
   "description": "Flow type ESLint config",
   "files": [
     "index.js"
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "eslint": "^3.16.1",
-    "eslint-config-simenb-base": "^12.1.0",
+    "eslint-config-simenb-base": "^12.1.2",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-prettier": "^2.0.1",
     "prettier": "^0.20.0"
