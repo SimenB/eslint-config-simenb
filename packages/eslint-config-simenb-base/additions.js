@@ -1,5 +1,4 @@
 module.exports = {
-  plugins: ['prettier'],
   rules: {
     'line-comment-position': 'off',
     'lines-around-directive': 'error',
