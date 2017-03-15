@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-simenb-jest",
+  "version": "0.0.0",
+  "description": "Jest ESLint config",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [],
+  "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
+  "license": "MIT",
+  "repository": "SimenB/eslint-config-simenb",
+  "dependencies": {
+    "eslint-plugin-jest": "^19.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-simenb-base": "^12.1.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "prettier": "^0.22.0"
+  }
+}
