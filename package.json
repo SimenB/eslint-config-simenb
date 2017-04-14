@@ -4,9 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap --concurrency=1",
+    "bootstrap": "lerna bootstrap --concurrency 1",
     "exec": "lerna exec",
-    "publish": "lerna publish",
+    "publish": "lerna publish --registry https://registry.npmjs.org/ --concurrency 1",
     "updated": "lerna updated",
     "test": "lerna run test"
   },
