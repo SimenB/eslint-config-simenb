@@ -1,21 +1,21 @@
-# `eslint-config-simenb-ava`
-> AVA ESLint config
+# `eslint-config-simenb-jest`
+> Jest ESLint config
 
 [![NPM Version][npm-image]][npm-url]
 
-AVA config.
+Jest config.
 
 ## Usage
 
 ```sh
-$ npm install --save-dev eslint-config-simenb-ava
+$ npm install --save-dev eslint-config-simenb-jest
 ```
 
 `.eslintrc`:
 
 ```json
 {
-  "extends": "simenb-ava"
+  "extends": "simenb-jest"
 }
 ```
 
@@ -24,5 +24,5 @@ $ npm install --save-dev eslint-config-simenb-ava
 MIT
 
 
-[npm-url]: https://npmjs.org/package/eslint-config-simenb-ava
-[npm-image]: https://img.shields.io/npm/v/eslint-config-simenb-ava.svg
+[npm-url]: https://npmjs.org/package/eslint-config-simenb-jest
+[npm-image]: https://img.shields.io/npm/v/eslint-config-simenb-jest.svg
