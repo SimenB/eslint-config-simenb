@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-base",
-  "version": "12.1.3",
+  "version": "12.1.4",
   "description": "Base ESLint config",
   "files": [
     "additions.js",
