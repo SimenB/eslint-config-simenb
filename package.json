@@ -4,9 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap --concurrency 1",
+    "bootstrap": "lerna bootstrap",
     "exec": "lerna exec",
-    "publish": "lerna publish --registry https://registry.npmjs.org/ --concurrency 1",
+    "publish": "lerna publish --registry https://registry.npmjs.org/",
     "updated": "lerna updated",
     "test": "lerna run test"
   },
@@ -15,6 +15,9 @@
   "license": "MIT",
   "repository": "SimenB/eslint-config-simenb",
   "devDependencies": {
-    "lerna": "2.0.0-rc.4"
-  }
+    "lerna": "^2.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
