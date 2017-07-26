@@ -10,7 +10,11 @@ module.exports = {
       'error',
       { excludeArrowFunctions: true },
     ],
-    'flowtype/require-return-type': ['error', { excludeArrowFunctions: true }],
+    'flowtype/require-return-type': [
+      'error',
+      'always',
+      { excludeArrowFunctions: true },
+    ],
     'flowtype/require-valid-file-annotation': [
       'warn',
       'always',
