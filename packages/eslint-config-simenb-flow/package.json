@@ -14,14 +14,14 @@
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-plugin-babel": "^4.1.1",
-    "eslint-plugin-flowtype": "^2.32.1"
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-flowtype": "^2.35.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^4.3.0",
     "eslint-config-simenb-base": "^12.1.4",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-prettier": "^2.0.1",
-    "prettier": "^1.3.1"
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "prettier": "^1.5.3"
   }
 }
