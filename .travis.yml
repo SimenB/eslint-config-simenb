@@ -1,16 +1,9 @@
 language: node_js
-node_js:
-  - node
-  - 6
-  - 4
-os:
-  - linux
-  - osx
+node_js: node
 matrix:
   fast_finish: true
-before_install: npm install -g npm
 script:
-  - npm run bootstrap
-  - npm run test
+  - yarn lint
+  - yarn test
 cache:
   yarn: true

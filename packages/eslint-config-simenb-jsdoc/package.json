@@ -6,7 +6,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "eslint ."
+    "test": "true"
   },
   "keywords": [],
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
@@ -14,12 +14,5 @@
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
     "eslint-plugin-jsdoc": "^3.1.1"
-  },
-  "devDependencies": {
-    "eslint": "^4.3.0",
-    "eslint-config-simenb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-prettier": "^2.1.2",
-    "prettier": "^1.5.3"
   }
 }
