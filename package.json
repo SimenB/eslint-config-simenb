@@ -16,7 +16,7 @@
   "repository": "SimenB/eslint-config-simenb",
   "devDependencies": {
     "eslint": "^4.6.0",
-    "lerna": "^2.1.1"
+    "lerna": "^2.6.0"
   },
   "workspaces": [
     "packages/*"
