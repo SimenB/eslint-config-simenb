@@ -15,6 +15,6 @@
   "dependencies": {
     "babel-eslint": "^9.0.0",
     "eslint-plugin-babel": "^5.2.0",
-    "eslint-plugin-flowtype": "^2.35.0"
+    "eslint-plugin-flowtype": "^3.1.0"
   }
 }
