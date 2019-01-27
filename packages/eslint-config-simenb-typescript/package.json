@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-simenb-typescript",
+  "version": "0.0.0",
+  "description": "TypeScript type ESLint config",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "true"
+  },
+  "keywords": [],
+  "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
+  "license": "MIT",
+  "repository": "SimenB/eslint-config-simenb",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.1.0",
+    "@typescript-eslint/parser": "^1.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
