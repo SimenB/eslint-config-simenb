@@ -14,5 +14,8 @@
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
     "eslint-plugin-node": "^8.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
   }
 }

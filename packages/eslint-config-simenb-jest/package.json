@@ -14,5 +14,8 @@
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
     "eslint-plugin-jest": "^22.1.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
   }
 }

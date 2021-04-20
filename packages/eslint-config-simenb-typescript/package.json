@@ -17,6 +17,7 @@
     "@typescript-eslint/parser": "^1.1.0"
   },
   "peerDependencies": {
+    "eslint": ">=5",
     "typescript": "*"
   },
   "devDependencies": {
