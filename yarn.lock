@@ -2489,16 +2489,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^4.0.0":
-  version: 4.3.0
-  resolution: "eslint-config-prettier@npm:4.3.0"
-  dependencies:
-    get-stdin: ^6.0.0
+"eslint-config-prettier@npm:^8.0.0":
+  version: 8.2.0
+  resolution: "eslint-config-prettier@npm:8.2.0"
   peerDependencies:
-    eslint: ">=3.14.1"
+    eslint: ">=7.0.0"
   bin:
-    eslint-config-prettier-check: bin/cli.js
-  checksum: 8bbede977b29aaf80eace0d27ee91ac9cf68447ac8b2637f4d39bbc14500a785d7f2c0c7713d537d4d1f2ababf2c384ddbe1d5c61deb5717a6d2e65d33287190
+    eslint-config-prettier: bin/cli.js
+  checksum: 0fe60cc42dd84fd878ee437dfe73340ba8b18f41ba2538878c54ff15f24a6855bf7e048b36290022b21e0e050ee6cf61d66bfdf39bedb5ccc15c28997cda7016
   languageName: node
   linkType: hard
 
@@ -2517,7 +2515,7 @@ __metadata:
   resolution: "eslint-config-simenb-base@workspace:packages/eslint-config-simenb-base"
   dependencies:
     eslint-config-airbnb-base: ^14.0.0
-    eslint-config-prettier: ^4.0.0
+    eslint-config-prettier: ^8.0.0
     eslint-find-rules: ^3.1.1
     eslint-plugin-import: ^2.7.0
     eslint-plugin-prettier: ^3.0.1
@@ -3300,13 +3298,6 @@ __metadata:
   version: 4.0.1
   resolution: "get-stdin@npm:4.0.1"
   checksum: ba122b05691e29aa1c93f9dfe76671c23b311e5f299c4205c030c00a656045fcf56d2bb5a924b6cd576f278563643b6689b50aa54fc87abcdc2e6e8eda09920e
-  languageName: node
-  linkType: hard
-
-"get-stdin@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "get-stdin@npm:6.0.0"
-  checksum: b51d664838aef7f8353dc57371ce59cea54d8d584fec015a9d89d24561e95b97806d5b5ba120bc81574c9ed63cb3e210176ffa0ff9263c7e7ba4d56d0fe54913
   languageName: node
   linkType: hard
 
