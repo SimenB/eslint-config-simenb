@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
+    "@babel/eslint-parser": "^7.13.14",
     "eslint-plugin-babel": "^5.2.0",
     "eslint-plugin-flowtype": "^3.2.1"
   }

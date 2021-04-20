@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['plugin:flowtype/recommended', 'eslint-config-prettier/flowtype'],
+  parser: '@babel/eslint-parser',
   plugins: ['flowtype', 'babel'],
   rules: {
     'flowtype/define-flow-type': 'error',
