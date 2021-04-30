@@ -46,6 +46,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@es-joy/jsdoccomment@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@es-joy/jsdoccomment@npm:0.1.1"
+  checksum: f1b83dbc360d1d1e8d082ccdcb3dd0606fa4a4dd8ab4c32c695740b3ae4a5b03d54f23c65429448950a505c94da1dfe480289bd68e2adcc7f615675e41102eff
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^0.1.3":
   version: 0.1.3
   resolution: "@eslint/eslintrc@npm:0.1.3"
@@ -1878,10 +1885,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"comment-parser@npm:^0.5.4":
-  version: 0.5.5
-  resolution: "comment-parser@npm:0.5.5"
-  checksum: 6050936aa308b4d3d65e0bbf43a014e7f612fd8db9b4ffee56fc6572451b0a34733d752d3f27193f7debac053edc0dca4cb72817fd0a12a2a8cbc350756be330
+"comment-parser@npm:1.1.5":
+  version: 1.1.5
+  resolution: "comment-parser@npm:1.1.5"
+  checksum: e9903b88f2760e94ad82328a1cbb8f722f424bfd7dd621f46b09749ee47288834c289b34f4e6ed7c14bef20a76a4b6badf9f0a717f81ded1a524ff840a453af6
   languageName: node
   linkType: hard
 
@@ -2154,7 +2161,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1":
+"debug@npm:4, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1":
   version: 4.3.2
   resolution: "debug@npm:4.3.2"
   dependencies:
@@ -2554,7 +2561,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-simenb-jsdoc@workspace:packages/eslint-config-simenb-jsdoc"
   dependencies:
-    eslint-plugin-jsdoc: ^4.0.1
+    eslint-plugin-jsdoc: ^33.0.0
   peerDependencies:
     eslint: ">=5"
   languageName: unknown
@@ -2722,16 +2729,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:^4.0.1":
-  version: 4.8.4
-  resolution: "eslint-plugin-jsdoc@npm:4.8.4"
+"eslint-plugin-jsdoc@npm:^33.0.0":
+  version: 33.0.0
+  resolution: "eslint-plugin-jsdoc@npm:33.0.0"
   dependencies:
-    comment-parser: ^0.5.4
-    jsdoctypeparser: 3.1.0
-    lodash: ^4.17.11
+    "@es-joy/jsdoccomment": ^0.1.1
+    comment-parser: 1.1.5
+    debug: ^4.3.1
+    jsdoctypeparser: ^9.0.0
+    lodash: ^4.17.21
+    regextras: ^0.7.1
+    semver: ^7.3.5
+    spdx-expression-parse: ^3.0.1
   peerDependencies:
-    eslint: ">=4.14.0"
-  checksum: 24dd7bb3bdb87fed26752c99c730c092a335c4ca8a2a076a5fa13bcb11ebca653e5714a2a8ae1f7cbd8ce9eac8d6942aab0e63065c7e0b5de07226076f551421
+    eslint: ^6.0.0 || ^7.0.0
+  checksum: 60a462c6b0283f4f95299c00dc27d7aa3db3712559842e43b79e386a4f92ebf8d7ca5bd22caec0817d6bf7ab254a75296d7c8c48221fc28ab5503e0f651d7a18
   languageName: node
   linkType: hard
 
@@ -4091,10 +4103,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsdoctypeparser@npm:3.1.0":
-  version: 3.1.0
-  resolution: "jsdoctypeparser@npm:3.1.0"
-  checksum: c258320bee6f9ef06539995658e729f0af749b14a255fb547ee7cc2fbbf9b9e9e949b9fc1cb4dbfaea9517676a8be3b8d8af32243415c36bc3c0ccdd8f3a3681
+"jsdoctypeparser@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "jsdoctypeparser@npm:9.0.0"
+  bin:
+    jsdoctypeparser: bin/jsdoctypeparser
+  checksum: d0c855be23ddb77260d54c8d833bf089e2e5a08f7b7dd7fdd60c35d3a222669e2edadc455fd69c435e593413e09b6792410d1d877c8f423662053f5e5012513b
   languageName: node
   linkType: hard
 
@@ -4377,7 +4391,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.13.1, lodash@npm:^4.17.11, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.7.0":
+"lodash@npm:^4.13.1, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
@@ -5961,6 +5975,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regextras@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "regextras@npm:0.7.1"
+  checksum: 60e965d826751da5c7c744c9ecdca3bd90026f8376ec6a362b04b9eeb8140e8be5f6028de155f9b4d3a713344aff625668522c3fb3fc391aec67815bdc3ab509
+  languageName: node
+  linkType: hard
+
 "repeating@npm:^2.0.0":
   version: 2.0.1
   resolution: "repeating@npm:2.0.1"
@@ -6370,7 +6391,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"spdx-expression-parse@npm:^3.0.0":
+"spdx-expression-parse@npm:^3.0.0, spdx-expression-parse@npm:^3.0.1":
   version: 3.0.1
   resolution: "spdx-expression-parse@npm:3.0.1"
   dependencies:
