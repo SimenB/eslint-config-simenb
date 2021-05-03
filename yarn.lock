@@ -28,21 +28,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-validator-identifier@npm:^7.12.11":
-  version: 7.12.11
-  resolution: "@babel/helper-validator-identifier@npm:7.12.11"
-  checksum: 18de432203264b501db2690b53370a4289dc56084f5a2c66de624b159ee28b8abaeb402b2b7584296d9261645d91ddb6bfd21125d3ffd9bf02e9262e77baf3d2
+"@babel/helper-validator-identifier@npm:^7.14.0":
+  version: 7.14.0
+  resolution: "@babel/helper-validator-identifier@npm:7.14.0"
+  checksum: bd67b4a1a49eba151aa0fe95508579638287fee0a3e7a3bf8c5ab480de8eaad4b4231c523d7db401eb0cecc7cf03b76ee72453fab53bab8cb8ccd154bb67feb7
   languageName: node
   linkType: hard
 
 "@babel/highlight@npm:^7.12.13":
-  version: 7.13.10
-  resolution: "@babel/highlight@npm:7.13.10"
+  version: 7.14.0
+  resolution: "@babel/highlight@npm:7.14.0"
   dependencies:
-    "@babel/helper-validator-identifier": ^7.12.11
+    "@babel/helper-validator-identifier": ^7.14.0
     chalk: ^2.0.0
     js-tokens: ^4.0.0
-  checksum: 8f23d3b728422713bfab45bee1e7584f2a3d2e20c9c4d6153312b898c82e776bdc5b1b2afaf9433fddb21d70417f5b477c0bb1a48613324fd761117e19a5702b
+  checksum: 0122fcd3cd6e81bfa002227d6c9dfff91d388d48dc188cd13e3f60c46e5450ebad65aa133ac8f525cb3cfa3b70766484e4a93c40b2837ce16f12083ebd2b0824
   languageName: node
   linkType: hard
 
@@ -1000,10 +1000,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^6.1.1":
-  version: 6.1.1
-  resolution: "@octokit/openapi-types@npm:6.1.1"
-  checksum: 86d68da0de67c5542c1029cc26573a6a1e6c5694445e36f235a1d20a085ca4ed2ff785143633dac6f29a6faea87614251808260607410790f168b7f0d9d85431
+"@octokit/openapi-types@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "@octokit/openapi-types@npm:7.0.0"
+  checksum: 703727ff2e1956c353350628cdbc54f7c206cd363908b887b632c7b7c8840e7d25528442485f77d3c7059c85ed3797de9083fdfd036b1d8f752bbd1bb12979ec
   languageName: node
   linkType: hard
 
@@ -1084,11 +1084,11 @@ __metadata:
   linkType: hard
 
 "@octokit/types@npm:^6.0.3, @octokit/types@npm:^6.11.0, @octokit/types@npm:^6.13.1, @octokit/types@npm:^6.7.1":
-  version: 6.13.2
-  resolution: "@octokit/types@npm:6.13.2"
+  version: 6.14.2
+  resolution: "@octokit/types@npm:6.14.2"
   dependencies:
-    "@octokit/openapi-types": ^6.1.1
-  checksum: cb0c5c45ae9f12789d22e9411cc0beb1140909901a4c34febaf7c6569a7b538be539d1933c9fb54bface3131b61d264b1cefa24aae82e3790b7c160feb43fc3d
+    "@octokit/openapi-types": ^7.0.0
+  checksum: b717cb855c7ea65b721452e278d6543a0cbe9729f9dc1fa02da93d726202e6526f95f21870ef0c67d7dceeb769e4ff183f650f362aceb6bd6b766caa781ca025
   languageName: node
   linkType: hard
 
@@ -6954,11 +6954,11 @@ typescript@*:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.13.4
-  resolution: "uglify-js@npm:3.13.4"
+  version: 3.13.5
+  resolution: "uglify-js@npm:3.13.5"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: ed05c13db1fc5be51c189e96abfcd319be61c9ab2bc6917279bdb3d7900fc0cbe9dc2aafaaed2f9588bbe05a18f9aeb687ea76697e5578fd8820ce528acc5ff4
+  checksum: ecc73f27818cca8ceea729d9118dd01e47491db1e7a19184076a454e4da51fc3a5881c5ffac56531675ef008b147f6df794d67ff9b3263ea8e5fd8d11799fb56
   languageName: node
   linkType: hard
 
