@@ -16,6 +16,6 @@
     "eslint-plugin-jest": "^26.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=6"
   }
 }
