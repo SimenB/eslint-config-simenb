@@ -16,6 +16,6 @@
     "eslint-plugin-jsdoc": "^37.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=7"
   }
 }
