@@ -5,5 +5,7 @@ module.exports = {
       'warn',
       { terms: ['todo', 'fixme', '@todo', '@fixme'], location: 'start' },
     ],
+    'import/no-relative-packages': 'error',
+    'import/no-import-module-exports': 'error',
   },
 };
