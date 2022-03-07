@@ -1,10 +1,11 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base',
-    'plugin:prettier/recommended',
     './overrides',
     './legacy-additions',
     './additions',
-  ].map(require.resolve),
+  ]
+    .map(require.resolve)
+    .concat('plugin:prettier/recommended'),
   rules: {},
 };
