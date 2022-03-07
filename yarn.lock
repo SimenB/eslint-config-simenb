@@ -2478,7 +2478,7 @@ __metadata:
     eslint-plugin-import: ^2.7.0
     eslint-plugin-prettier: ^3.0.1
   peerDependencies:
-    eslint: ">=5"
+    eslint: ">=7"
     prettier: "*"
   languageName: unknown
   linkType: soft
