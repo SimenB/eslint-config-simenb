@@ -2542,10 +2542,10 @@ __metadata:
   dependencies:
     "@babel/eslint-parser": ^7.13.14
     eslint-plugin-babel: ^5.2.0
-    eslint-plugin-flowtype: ^8.0.0
+    eslint-plugin-flowtype: ^7.0.0
   peerDependencies:
     "@babel/core": ^7.0.0
-    eslint: ">=5"
+    eslint: ">=7.32.0"
   languageName: unknown
   linkType: soft
 
@@ -2682,17 +2682,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-flowtype@npm:^8.0.0":
-  version: 8.0.3
-  resolution: "eslint-plugin-flowtype@npm:8.0.3"
+"eslint-plugin-flowtype@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "eslint-plugin-flowtype@npm:7.0.0"
   dependencies:
     lodash: ^4.17.21
     string-natural-compare: ^3.0.1
   peerDependencies:
-    "@babel/plugin-syntax-flow": ^7.14.5
-    "@babel/plugin-transform-react-jsx": ^7.14.9
-    eslint: ^8.1.0
-  checksum: 30e63c5357b0b5571f39afed51e59c140084f4aa53c106b1fd04f26da42b268908466daa6020b92943e71409bdaee1c67202515ed9012404d027cc92cb03cefa
+    eslint: ^7.32.0
+  checksum: a47625dd2d56ad9e12aa4fb94f1b9abdbc45832aac66bafd0b547a225e27ee35d20dc69d2b762e6845369e00f06181d69fc4e4ebb7922d6e2f909b84b97616d8
   languageName: node
   linkType: hard
 
