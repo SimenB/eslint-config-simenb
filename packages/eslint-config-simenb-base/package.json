@@ -28,7 +28,7 @@
     "eslint-find-rules": "^4.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=5",
+    "eslint": ">=7",
     "prettier": "*"
   }
 }
