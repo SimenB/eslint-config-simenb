@@ -16,6 +16,6 @@
     "eslint-plugin-ava": "^13.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=5"
+    "eslint": ">=7.22.0"
   }
 }
