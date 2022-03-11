@@ -2948,7 +2948,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-simenb-jsdoc@workspace:packages/eslint-config-simenb-jsdoc"
   dependencies:
-    eslint-plugin-jsdoc: ^37.0.0
+    eslint-plugin-jsdoc: ^38.0.0
   peerDependencies:
     eslint: ">=7"
   languageName: unknown
@@ -3120,9 +3120,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsdoc@npm:^37.0.0":
-  version: 37.9.7
-  resolution: "eslint-plugin-jsdoc@npm:37.9.7"
+"eslint-plugin-jsdoc@npm:^38.0.0":
+  version: 38.0.0
+  resolution: "eslint-plugin-jsdoc@npm:38.0.0"
   dependencies:
     "@es-joy/jsdoccomment": ~0.20.1
     comment-parser: 1.3.0
@@ -3134,7 +3134,7 @@ __metadata:
     spdx-expression-parse: ^3.0.1
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0
-  checksum: 1bf96fa60a99473ce1dac89f33d60779c20f03c748e22d62c31800b6d53f1d96ff8ea115452c272b0f493e87208c069d8738d7dc3f0b3e280a5388d69a2645c5
+  checksum: 19149dda7a720adaffaee511fb92428027fd9bcf3f9bfd2f3e3db2ca3e866434f2250de6f6fb4f47bbf2abc860d3bc5e4604bc66a000166ea51ced62498c9004
   languageName: node
   linkType: hard
 
