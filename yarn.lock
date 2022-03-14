@@ -1285,17 +1285,17 @@ __metadata:
   linkType: hard
 
 "@octokit/core@npm:^3.5.1":
-  version: 3.5.1
-  resolution: "@octokit/core@npm:3.5.1"
+  version: 3.6.0
+  resolution: "@octokit/core@npm:3.6.0"
   dependencies:
     "@octokit/auth-token": ^2.4.4
     "@octokit/graphql": ^4.5.8
-    "@octokit/request": ^5.6.0
+    "@octokit/request": ^5.6.3
     "@octokit/request-error": ^2.0.5
     "@octokit/types": ^6.0.3
     before-after-hook: ^2.2.0
     universal-user-agent: ^6.0.0
-  checksum: 67179739fc9712b201f2400f132287a2c56a18506e00900bc9d2a3f742b74f1ba69ad998e42f28f3964c0bd1d5478232c1ec7b485c97702b821fbe22b76afa90
+  checksum: f81160129037bd8555d47db60cd5381637b7e3602ad70735a7bdf8f3d250c7b7114a666bb12ef7a8746a326a5d72ed30a1b8f8a5a170007f7285c8e217bef1f0
   languageName: node
   linkType: hard
 
@@ -1378,7 +1378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/request@npm:^5.6.0":
+"@octokit/request@npm:^5.6.0, @octokit/request@npm:^5.6.3":
   version: 5.6.3
   resolution: "@octokit/request@npm:5.6.3"
   dependencies:
@@ -4523,9 +4523,9 @@ __metadata:
   linkType: hard
 
 "jsdoc-type-pratt-parser@npm:~2.2.3":
-  version: 2.2.3
-  resolution: "jsdoc-type-pratt-parser@npm:2.2.3"
-  checksum: 202a6c1f884234f0927fea82648f2401c24477231e127f28cdf4f5e169ca37535e694379eb440c627f7032504b5225155d8113a67499bec07cf8ce131265f1ed
+  version: 2.2.5
+  resolution: "jsdoc-type-pratt-parser@npm:2.2.5"
+  checksum: 47d68147fae7fe4343e0c1d47cbf55d2d963696e0583a1d398846be06df2df8e149e34a6304e04b6c148839600234e99a860bc712af829fac557fe7e5cd82141
   languageName: node
   linkType: hard
 
@@ -5003,19 +5003,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime-db@npm:1.51.0":
-  version: 1.51.0
-  resolution: "mime-db@npm:1.51.0"
-  checksum: 613b1ac9d6e725cc24444600b124a7f1ce6c60b1baa654f39a3e260d0995a6dffc5693190217e271af7e2a5612dae19f2a73f3e316707d797a7391165f7ef423
+"mime-db@npm:1.52.0":
+  version: 1.52.0
+  resolution: "mime-db@npm:1.52.0"
+  checksum: 0d99a03585f8b39d68182803b12ac601d9c01abfa28ec56204fa330bc9f3d1c5e14beb049bafadb3dbdf646dfb94b87e24d4ec7b31b7279ef906a8ea9b6a513f
   languageName: node
   linkType: hard
 
 "mime-types@npm:^2.1.12, mime-types@npm:~2.1.19":
-  version: 2.1.34
-  resolution: "mime-types@npm:2.1.34"
+  version: 2.1.35
+  resolution: "mime-types@npm:2.1.35"
   dependencies:
-    mime-db: 1.51.0
-  checksum: 67013de9e9d6799bde6d669d18785b7e18bcd212e710d3e04a4727f92f67a8ad4e74aee24be28b685adb794944814bde649119b58ee3282ffdbee58f9278d9f3
+    mime-db: 1.52.0
+  checksum: 89a5b7f1def9f3af5dad6496c5ed50191ae4331cc5389d7c521c8ad28d5fdad2d06fd81baf38fed813dc4e46bb55c8145bb0ff406330818c9cf712fb2e9b3836
   languageName: node
   linkType: hard
 
@@ -6203,14 +6203,14 @@ __metadata:
   linkType: hard
 
 "read-package-json@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "read-package-json@npm:4.1.1"
+  version: 4.1.2
+  resolution: "read-package-json@npm:4.1.2"
   dependencies:
     glob: ^7.1.1
     json-parse-even-better-errors: ^2.3.0
     normalize-package-data: ^3.0.0
     npm-normalize-package-bin: ^1.0.0
-  checksum: d95f6e9747bcce9bdbfae8442a86c41cde3a73691a8a8cdc46e0711e7768718e1f0955a38cbde01a6e571f490bbdc9d6a83713a89eca85646a816e659a78f6f4
+  checksum: 729acda12fdbff6cee8cee7b6023a16e85c02406e2427b3cd091948d945940cfb6a6ebe7a8b4df967d483f360d0ec12fb83ab80de3e7bbb2ba2c426d07fd774e
   languageName: node
   linkType: hard
 
@@ -7191,14 +7191,14 @@ __metadata:
   linkType: hard
 
 "tsconfig-paths@npm:^3.12.0":
-  version: 3.13.0
-  resolution: "tsconfig-paths@npm:3.13.0"
+  version: 3.14.0
+  resolution: "tsconfig-paths@npm:3.14.0"
   dependencies:
     "@types/json5": ^0.0.29
     json5: ^1.0.1
     minimist: ^1.2.0
     strip-bom: ^3.0.0
-  checksum: 64f0de3c882c016cdfe34d5261087fcf0c75048c4206ee32540e36df9f99d82d2caa5872135d3b6704324f5fd7d9032131caf316c1da83c2ac465d5dfb2aafd4
+  checksum: edd81e8f053a67e4a308037d2668c1fff06b01d4c3989170b90eb7eae5bdbebcc4910a8b7fbe0af3c21c62b68f67c1a9b9de5d9fe96cfe15ca45f7a198ee2c0c
   languageName: node
   linkType: hard
 
@@ -7347,11 +7347,11 @@ __metadata:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.15.2
-  resolution: "uglify-js@npm:3.15.2"
+  version: 3.15.3
+  resolution: "uglify-js@npm:3.15.3"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: 5bbe848e01281032db94567f27eee3ab61ec685275c1c6825fbad55f231910fc1b47f1ceef1dc1d946e1253e946fde8b0d2809aa3ae186e4ddd6bda2f6dc7850
+  checksum: 5d2f5a8591b84d81317783205ba26c7a94c435476c19df8612024d28986acbe1f5dbd65bc604134a8557a3f64e8a5ed2660d11e2ba74b59af1fe531fd5506b16
   languageName: node
   linkType: hard
 
