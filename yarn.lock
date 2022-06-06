@@ -3146,8 +3146,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jest@npm:^26.0.0":
-  version: 26.5.2
-  resolution: "eslint-plugin-jest@npm:26.5.2"
+  version: 26.5.3
+  resolution: "eslint-plugin-jest@npm:26.5.3"
   dependencies:
     "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
@@ -3158,7 +3158,7 @@ __metadata:
       optional: true
     jest:
       optional: true
-  checksum: 1e69ad10cfb82e4771166ab777b598e018e1162e1e3d0358225b3d66f54d847595756e06083d7932c22cb0438a8c74cbd0f495c033f6be72f27d501e7f25ea39
+  checksum: 16897c56eadf3da19a96e18b1bd983bbd0a34ad9545d5bc6f9ee67d2940e6e2fd2f067f44dbbb26dcaf17c75c0132f89a06a09ff5169761ce48c9708a2acf7d7
   languageName: node
   linkType: hard
 
