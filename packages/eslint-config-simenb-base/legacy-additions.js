@@ -9,5 +9,7 @@ module.exports = {
     'no-constant-binary-expression': 'off',
     'no-empty-static-block': 'off',
     'no-new-native-nonconstructor': 'off',
+    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
+    'import/no-empty-named-blocks': 'error',
   },
 };
