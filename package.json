@@ -16,7 +16,7 @@
   "repository": "SimenB/eslint-config-simenb",
   "devDependencies": {
     "@changesets/cli": "^2.21.1",
-    "eslint": "^7.0.0",
+    "eslint": "^8.0.0",
     "lerna": "^6.0.0",
     "prettier": "^2.0.0"
   },
