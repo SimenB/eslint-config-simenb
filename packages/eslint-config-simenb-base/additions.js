@@ -14,5 +14,6 @@ module.exports = {
     'no-constant-binary-expression': 'error',
     'no-empty-static-block': 'error',
     'no-new-native-nonconstructor': 'error',
+    'no-object-constructor': 'error',
   },
 };
