@@ -15,6 +15,9 @@
   "dependencies": {
     "eslint-plugin-n": "^14.0.0"
   },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
   "peerDependencies": {
     "eslint": ">=5"
   }
