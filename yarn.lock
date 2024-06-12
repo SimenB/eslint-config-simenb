@@ -2867,7 +2867,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-simenb-ava@workspace:packages/eslint-config-simenb-ava"
   dependencies:
-    eslint-plugin-ava: "npm:^14.0.0"
+    eslint-plugin-ava: "npm:^15.0.0"
   peerDependencies:
     eslint: ">=7.22.0"
   languageName: unknown
@@ -2997,9 +2997,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-ava@npm:^14.0.0":
-  version: 14.0.0
-  resolution: "eslint-plugin-ava@npm:14.0.0"
+"eslint-plugin-ava@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "eslint-plugin-ava@npm:15.0.0"
   dependencies:
     enhance-visitors: "npm:^1.0.0"
     eslint-utils: "npm:^3.0.0"
@@ -3010,8 +3010,8 @@ __metadata:
     pkg-dir: "npm:^5.0.0"
     resolve-from: "npm:^5.0.0"
   peerDependencies:
-    eslint: ">=8.26.0"
-  checksum: 10/5c7bfc073036483a2611c515f52d0a4ad3a9b265bbae5446ddd38e17e7a926104d5e35902e8d1f7b7477b4dffc20064da2ecc2b83ee96c8c35d9ecb8afa8de1a
+    eslint: ">=9"
+  checksum: 10/125dfaa39208e2f484949ea23b237e111d188f6f5c30954c559cb74fe9793537de259d9764637f534d19ec01e431edc49a07f6c13ab35abd0eab66ff78ffed94
   languageName: node
   linkType: hard
 
