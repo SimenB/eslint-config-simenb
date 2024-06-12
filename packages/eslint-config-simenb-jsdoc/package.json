@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-simenb-jsdoc",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "JSDoc ESLint config",
   "files": [
     "index.js"
