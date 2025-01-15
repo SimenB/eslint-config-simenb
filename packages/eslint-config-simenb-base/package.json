@@ -20,7 +20,7 @@
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^5.0.0"
   },
