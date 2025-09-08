@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": "SimenB/eslint-config-simenb",
   "dependencies": {
-    "eslint-plugin-jsdoc": "^48.0.0"
+    "eslint-plugin-jsdoc": "^54.0.0"
   },
   "devDependencies": {
     "eslint": "^8.0.0"
