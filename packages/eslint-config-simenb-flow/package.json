@@ -21,7 +21,7 @@
     "@babel/core": "^7.0.0",
     "@babel/plugin-syntax-flow": "^7.0.0",
     "@babel/plugin-transform-react-jsx": "^7.0.0",
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0",
